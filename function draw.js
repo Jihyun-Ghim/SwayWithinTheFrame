@@ -33,17 +33,17 @@ function draw() {
   imageMode(CORNER);
   image(background1, 0, 0, 720, 405);
 
-  // fill(0);
-  // textSize(15);
-  // text('I am moving on', 85, 330);
-  // text('I am moving on', 307.5, 330);
-  // text('I am moving on', 530, 330);
-  //
-  // textSize(8);
-  // text(person1.pos.x + " " + person1.pos.y, 57.5, 345);
-  // text(person2.pos.x + " " + person2.pos.y, 280, 345);
-  // text(person3.pos.x + " " + person3.pos.y, 502.5, 345);
-  //
-  // textSize(20);
-  // text('Sway within the Frame', 255, 67);
+  fill(0);
+  textSize(15);
+  text('I am moving on', 85, 330);
+  text('I am moving on', 307.5, 330);
+  text('I am moving on', 530, 330);
+
+  textSize(8);
+  text(person1.pos.x + " " + person1.pos.y, 57.5, 345);
+  text(person2.pos.x + " " + person2.pos.y, 280, 345);
+  text(person3.pos.x + " " + person3.pos.y, 502.5, 345);
+
+  textSize(20);
+  text('Sway within the Frame', 255, 67);
 }
