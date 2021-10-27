@@ -3,14 +3,7 @@ let person2;
 let person3;
 let background1;
 let background2;
-// ---
-// # To do List
-// - [ ] 스케치 파일 여러 개로 나누어서 실행해보기 (function preload와 setup - function draw - function people)
-// - [ ] 폰트 불러와서 제목과 하단의 텍스트 더 어울리는 폰트로 변경하기
-// - [ ] 기본 배경 사운드 추가하기
-// - [ ] keypressed 할 때 효과음 추가하기
-// - [ ] keypressed 할 때 배경 부분 변경하기
-// ---
+
 function preload() {
   background1 = loadImage('background.png');
   background2 = loadImage('background2.png');
