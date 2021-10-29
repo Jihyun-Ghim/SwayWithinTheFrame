@@ -39,8 +39,9 @@ function draw() {
   text('I am moving on', 85, 330);
   text('I am moving on', 307.5, 330);
   text('I am moving on', 530, 330);
-  // fill(0);
+
   textSize(8);
+  textFont('myFont1');
   text(person1.pos.x + " " + person1.pos.y, 57.5, 345);
   text(person2.pos.x + " " + person2.pos.y, 280, 345);
   text(person3.pos.x + " " + person3.pos.y, 502.5, 345);
@@ -48,4 +49,6 @@ function draw() {
   textSize(20);
   textFont('myFont2');
   text('Sway within the Frame', 255, 67);
+
+  //나중에 화면 뜨면 텍스트 위치 조금씩 수정하기
 }
