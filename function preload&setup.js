@@ -18,14 +18,14 @@ function setup() {
   person2 = new People(357.5, 202.5, random(-12, 12), random(-12, 12), 2);
   person3 = new People(580, 202.5, random(-8, 8), random(-8, 8), 2);
 
-  fill(0);
-  textSize(20);
-  textFont('myFont2');
-  text('Sway within the Frame', 255, 67);
-  
-  textSize(15);
-  textFont('myFont1');
-  text('I am moving on', 85, 330);
-  text('I am moving on', 307.5, 330);
-  text('I am moving on', 530, 330);
+  // fill(0);
+  // textSize(20);
+  // textFont('myFont2');
+  // text('Sway within the Frame', 255, 67);
+  //
+  // textSize(15);
+  // textFont('myFont1');
+  // text('I am moving on', 85, 330);
+  // text('I am moving on', 307.5, 330);
+  // text('I am moving on', 530, 330);
 }
