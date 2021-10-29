@@ -35,6 +35,7 @@ function draw() {
 
   fill(0);
   textSize(15);
+  textFont('myFont');
   text('I am moving on', 85, 330);
   text('I am moving on', 307.5, 330);
   text('I am moving on', 530, 330);
