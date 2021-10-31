@@ -7,6 +7,7 @@ function draw() {
   if (keyIsPressed === true) {
     person1.display11();
     buttonSound.play();
+    tint(100);
   } else {
     person1.display1();
   }
@@ -17,6 +18,7 @@ function draw() {
  if (keyIsPressed === true) {
     person2.display22();
     buttonSound.play();
+    tint(100);
   } else {
     person2.display2();
   }
@@ -27,6 +29,7 @@ function draw() {
  if (keyIsPressed === true) {
     person3.display33();
     buttonSound.play();
+    tint(100);
   } else {
     person3.display3();
   }
