@@ -6,6 +6,7 @@ let background2;
 let myFont1;
 let myFont2;
 let bgSound;
+let buttonSound;
 
 function preload() {
   background1 = loadImage('background.png');
@@ -15,7 +16,8 @@ function preload() {
   myFont2 = loadFont('Avenir.ttc');
 
   soundFormats('mp3');
-  bgSound = loadSound('backgroundsound'); //나중에 사운드 파일 정해서 추가할 것
+  bgSound = loadSound('backgroundsound');
+  buttonSound = loadSound('buttonSound');
 }
 
 function setup() {
