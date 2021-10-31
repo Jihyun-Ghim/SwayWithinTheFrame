@@ -6,6 +6,7 @@ function draw() {
   person1.move();
   if (keyIsPressed === true) {
     person1.display11();
+    buttonSound.play();
   } else {
     person1.display1();
   }
@@ -15,6 +16,7 @@ function draw() {
   person2.move();
  if (keyIsPressed === true) {
     person2.display22();
+    buttonSound.play();
   } else {
     person2.display2();
   }
@@ -24,6 +26,7 @@ function draw() {
   person3.move();
  if (keyIsPressed === true) {
     person3.display33();
+    buttonSound.play();
   } else {
     person3.display3();
   }
