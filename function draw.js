@@ -1,9 +1,6 @@
 function draw() {
   createCanvas(720, 405);
 
-  bgSound.play();
-  //만약 이 때 사운드 플레이가 안 된다면, function canvasPressed(){bgSound.play();}로 바꾸어 볼 것
-
   var gravity = createVector(0, 0.1);
 
   person1.move();

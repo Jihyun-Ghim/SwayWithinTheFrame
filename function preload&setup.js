@@ -15,11 +15,15 @@ function preload() {
   myFont2 = loadFont('Avenir.ttc');
 
   soundFormats('mp3');
-  bgSound = loadSound(''); //나중에 사운드 파일 정해서 추가할 것
+  bgSound = loadSound('backgroundsound'); //나중에 사운드 파일 정해서 추가할 것
 }
 
 function setup() {
   person1 = new People(135, 202.5, random(-10, 10), random(-10, 10), 2);
   person2 = new People(357.5, 202.5, random(-12, 12), random(-12, 12), 2);
   person3 = new People(580, 202.5, random(-8, 8), random(-8, 8), 2);
+}
+
+function canvasPressed(){
+  bgSound.play();
 }
