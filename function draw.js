@@ -6,7 +6,6 @@ function draw() {
   person1.move();
   if (keyIsPressed === true) {
     person1.display11();
-    buttonSound.play();
     tint(100);
   } else {
     person1.display1();
@@ -17,7 +16,7 @@ function draw() {
   person2.move();
  if (keyIsPressed === true) {
     person2.display22();
-    buttonSound.play();
+    // buttonSound.play();
     tint(100);
   } else {
     person2.display2();
@@ -28,7 +27,6 @@ function draw() {
   person3.move();
  if (keyIsPressed === true) {
     person3.display33();
-    buttonSound.play();
     tint(100);
   } else {
     person3.display3();
@@ -41,19 +39,16 @@ function draw() {
 
   fill(0);
   textSize(15);
-  textFont('myFont1');
   text('I am moving on', 85, 330);
   text('I am moving on', 307.5, 330);
   text('I am moving on', 530, 330);
 
   textSize(8);
-  textFont('myFont1');
   text(person1.pos.x + " " + person1.pos.y, 57.5, 345);
   text(person2.pos.x + " " + person2.pos.y, 280, 345);
   text(person3.pos.x + " " + person3.pos.y, 502.5, 345);
 
   textSize(20);
-  textFont('myFont2');
   text('Sway within the Frame', 255, 67);
 
   //나중에 화면 뜨면 텍스트 위치 조금씩 수정하기
