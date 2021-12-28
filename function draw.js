@@ -50,6 +50,4 @@ function draw() {
 
   textSize(20);
   text('Sway within the Frame', 255, 67);
-
-  //나중에 화면 뜨면 텍스트 위치 조금씩 수정하기
 }
